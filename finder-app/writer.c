@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<syslog.h>
-
+ 
 
 int main(int argc, char *argv[]){
     openlog("writer-log", 0, LOG_USER);   //initializing syslog to log messages
